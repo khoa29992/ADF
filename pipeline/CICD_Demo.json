@@ -1,0 +1,18 @@
+{
+	"name": "CICD_Demo",
+	"properties": {
+		"activities": [
+			{
+				"name": "Wait1",
+				"description": "demo pipeline",
+				"type": "Wait",
+				"dependsOn": [],
+				"userProperties": [],
+				"typeProperties": {
+					"waitTimeInSeconds": 1
+				}
+			}
+		],
+		"annotations": []
+	}
+}
